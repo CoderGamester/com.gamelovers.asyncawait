@@ -1,0 +1,8 @@
+{
+  "name": "com.gamelovers.asyncawait",
+  "displayName": "Async Await",
+  "version": "0.1.0",
+  "unity": "2019.3",
+  "description": "This package makes it much easier to use the async-await feature of C# 4+ within Unity. After installing this package, you can 'await' objects from within async methods in the same way that you can 'yield' objects within coroutines.\n\nFor more info: http://www.stevevermeulen.com/index.php/2017/09/using-async-await-in-unity3d-2017/.\n\nNote: In order for this package to work you must set your Scripting Runtime to C# 4.6. You can do this by opening your player settings (Edit -> Project Settings -> Player) and changing \u201cScripting Runtime Version\u201d to \u201cExperimental (.NET 4.6 Equivalent).",
+  "type": "library"
+}
