@@ -7,9 +7,9 @@ namespace GameLovers.AsyncAwait
 {
     public static class Awaiters
     {
-        readonly static WaitForUpdate _waitForUpdate = new WaitForUpdate();
-        readonly static WaitForFixedUpdate _waitForFixedUpdate = new WaitForFixedUpdate();
-        readonly static WaitForEndOfFrame _waitForEndOfFrame = new WaitForEndOfFrame();
+        private readonly static WaitForUpdate _waitForUpdate = new WaitForUpdate();
+        private readonly static WaitForFixedUpdate _waitForFixedUpdate = new WaitForFixedUpdate();
+        private readonly static WaitForEndOfFrame _waitForEndOfFrame = new WaitForEndOfFrame();
 
         public static WaitForUpdate NextFrame
         {
