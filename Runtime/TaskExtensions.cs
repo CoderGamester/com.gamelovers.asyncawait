@@ -26,7 +26,7 @@ namespace GameLovers.AsyncAwait
         {
             while (!task.IsCompleted)
             {
-                yield return default(T);
+                yield return default;
             }
 
             if (task.IsFaulted)

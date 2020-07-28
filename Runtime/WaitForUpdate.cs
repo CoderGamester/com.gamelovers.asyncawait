@@ -8,9 +8,6 @@ namespace GameLovers.AsyncAwait
     // with async methods
     public class WaitForUpdate : CustomYieldInstruction
     {
-        public override bool keepWaiting
-        {
-            get { return false; }
-        }
+        public override bool keepWaiting => false;
     }
 }
